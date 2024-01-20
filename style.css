@@ -89,6 +89,7 @@ footer {
 
 .container {
     margin-top: 50px;
+    padding-bottom: 125px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -126,6 +127,68 @@ footer {
 
 .box {
     width: 200px;
-    width: 200px;
-    border:3px #3882f6;
+    height: 200px;
+    border:5px solid #3882f6;
+    border-radius: 25px;
+    flex: 1 1 1;
 }
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+#info {
+    font-family: 'roboto', sans-serif;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap; 
+    gap: 40px;
+    margin: 0px;
+
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#author {
+    text-align: end;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+.sub-quote {
+  width: 750px;
+
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px ;
+}
+
